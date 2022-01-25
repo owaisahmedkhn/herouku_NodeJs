@@ -1,6 +1,6 @@
 import express from 'express'
 const app = express()
-const port = process.env.PORT || 3001
+const port = 3000
 
 app.get('/', (req, res) => {
   res.send("Hello World!, Your Node .mjs Server is running and listening at Port:"+ port)
